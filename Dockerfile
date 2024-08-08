@@ -1,5 +1,5 @@
 FROM php:8.2-apache AS ospos
-LABEL maintainer="jekkos"
+LABEL maintainer="CPM_OSP"
 
 RUN apt update && apt-get install -y libicu-dev libgd-dev
 RUN a2enmod rewrite 
