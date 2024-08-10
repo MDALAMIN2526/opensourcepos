@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        DOCKERHUB_CREDENTIALS = credentials('dockerhub-credentials-id')
+        DOCKERHUB_CREDENTIALS = credentials('docker_hub')
         DOCKER_IMAGE = 'mdalamin2526/opensourcepos'
         GIT_REPO = 'https://github.com/MDALAMIN2526/opensourcepos.git'
     }
